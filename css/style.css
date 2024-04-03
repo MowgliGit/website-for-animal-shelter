@@ -2,6 +2,9 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
+.margin-bottom{
+    margin-bottom: 20px;
+}
 /* HOME */
 #home{
     background: linear-gradient(rgba(0, 0, 0, 0.7), 
@@ -12,6 +15,9 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     min-height: 100%;
+}
+.navbar-nav{
+    gap:15px
 }
 .nav-item{
     font-size: 1.2rem;
@@ -28,6 +34,7 @@ body{
 /* ABOUT US */
 #about span{
     color: #d17529;
+    margin-bottom: 30px!important;
 }
 h2{
     font-size: 38px;
