@@ -1,0 +1,130 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+/* HOME */
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.4))
+    ,url('/img/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100%;
+}
+.navbar-nav{
+    gap:15px
+}
+.nav-item{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.active{
+    border-bottom: 1px solid #fff;
+}
+.primary-btn{
+    background: #d17529;
+    color: #333;
+}
+/* END OF HOME */
+/* ABOUT US */
+#about span{
+    color: #d17529;
+    margin-bottom: 30px!important;
+}
+h2{
+    font-size: 38px;
+}
+/* HOW YOU CAN HELP */
+.card-adopt{
+    background-color: #222;
+    color: #ebe5e5;
+}
+#about .link-adopt{
+    background-color: #d17529;
+    color: #ebe5e5;
+}
+.card-donation{
+    background-color: #d17529;
+    color: #ebe5e5;
+}
+#about .link-donation{
+    background-color: #ebe5e5;
+}
+.span{
+    color: #d17529!important;
+}
+/* END OF HOW YOU CAN HELP */
+/* END OF ABOUT US */
+.btn{
+    border-radius: 15px;
+}
+/* WHAT WE DO */
+.span-services{
+    color: #d17529;
+}
+#services i{
+    color: #d17529;
+}
+/* END OF WHAT WE DO */
+/* PETS */
+#ourPets{
+    border-top: #333 2px solid ;
+}
+/* END OF PETS */
+/* BECAME VOLUNTEERS */
+#volunteers{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.4))
+    ,url('/img/volunteers.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+form{
+    background: #d17529;
+}
+.card-span{
+    background: #d17529;
+    color: #333;
+}
+.row-fa{
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+i{
+    color: #d17529;
+}
+/* END OF BECAME VOLUNTEERS */
+/* OUR PETS */
+#pets{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.4))
+    ,url('/img/pets.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+/* CONTACT */
+#contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.4))
+    ,url('/img/contact.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+/* FOOTER*/
+footer{
+    border-top: #d17529 1px solid;
+}
