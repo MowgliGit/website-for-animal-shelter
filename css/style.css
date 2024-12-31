@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 100%;
+  height: 630px;
 }
 .navbar-nav {
   gap: 15px;
@@ -21,6 +21,9 @@ body {
 .nav-item {
   font-size: 1.2rem;
   color: #fff;
+}
+.nav-link:hover {
+  color: #d17529;
 }
 a.nav-link {
   color: #d17529 !important
@@ -135,4 +138,30 @@ i {
 /* FOOTER*/
 footer {
   border-top: #d17529 1px solid;
+}
+@media (max-width: 668px) {
+  body {
+    overflow-x: hidden;
+  }
+  .primary-overlay {
+    display: none;
+  }
+  #home {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("/img/hero.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 330px;
+  }
+  .pet,
+  .volunter {
+    width: 450px !important;
+    height: 400px !important;
+  }
+  #helpShelter .col-sm-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
