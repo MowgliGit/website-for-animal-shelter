@@ -1,4 +1,6 @@
 body {
+  max-width: 1550px;
+  margin: 0 auto;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
 }
@@ -14,6 +16,10 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 630px;
+}
+.navbar {
+  max-width: 1550px;
+  margin: 0 auto;
 }
 .navbar-nav {
   gap: 15px;
